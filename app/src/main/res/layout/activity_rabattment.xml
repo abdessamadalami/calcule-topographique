@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rabattment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_margin="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="208dp"
+            android:layout_gravity="center"
+            android:background="@drawable/xx"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="11dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="R1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="137dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="11dp"
+                android:layout_weight="1"
+                android:background="@drawable/vv"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="x"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="137dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/vv"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="y"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="11dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="R2"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="137dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="11dp"
+                android:layout_weight="1"
+                android:background="@drawable/vv"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="x"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="137dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/vv"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="y"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="11dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Entrer les angles suivants "
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="11dp">
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="137dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="11dp"
+                android:layout_weight="1"
+                android:background="@drawable/vv"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="ᾳ"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="137dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/vv"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="β"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="137dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="11dp"
+                android:layout_weight="1"
+                android:background="@drawable/vv"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="ϕ"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="11dp">
+
+            <TextView
+
+                android:id="@+id/textView6"
+                android:layout_width="122dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="La distance a"
+                android:textColor="@color/fuchsia"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="115dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/vv"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn"
+                android:gravity="center"
+
+                android:text="OK" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
